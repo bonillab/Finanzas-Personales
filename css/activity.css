@@ -1,0 +1,393 @@
+#canvas{
+    width: 1200px;
+    height: 845px;
+}
+
+.sweet-alert p{
+    font-size: 30px !important;
+}
+
+.tr_indice{
+    background-color: dodgerblue;
+    width: 100px;
+}
+
+th{
+    left: 500px;
+    border-top-width: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.flecha{
+    position: absolute;
+    width: 64px;
+    height: 103px;
+    background: url("../img/flecha.png")0 0 no-repeat;
+}
+
+.tuto{
+    top: 27px;
+    position: absolute;
+    width: 900px;
+    left: 180px;
+    background-color: white;
+}
+
+.sweet-alert{
+    left: 600px !important; 
+}
+
+input[type=text]{
+    background: white;
+    border-radius: 0;
+    border-style: solid;
+    border-color: #00583c;
+    font-size: 18pt;
+    width: 150px;
+    padding: 0px !important; 
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.inp_nyd{
+    width: 160px;
+    border-style: solid;
+    border-color: blue;
+    font-size: 18pt;
+    height: 30px;
+}
+
+#tru_inp{
+    width: 160px;
+    border-style: solid;
+    border-color: blue;
+    font-size: 18pt;
+    height: 30px;
+    top: 600px;
+    position: absolute;
+    left: 500px;
+}
+
+.select{
+    font-size:30px;
+    border: none;
+    background-color: dodgerblue;
+}
+
+.button {
+    position: absolute;
+    border-radius: 0;
+    outline: 0;
+}
+
+button:hover{
+    border: none;
+}
+
+.boton{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+}
+
+.button:hover {
+    border: none;
+}
+
+.btn_hc{
+    position: absolute;
+    width: 230px;
+    height: 190px;
+}
+
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+.inter_size{
+    height: 845px;
+    width: 1200px;
+}
+
+/*background de interfaces*/
+#fondo{
+    background-image: url("../img/background.png")
+}
+
+.tru{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 350px; 
+}
+
+#int_1{
+    background: url("../img/principal.png") 0 0 no-repeat;
+}
+
+#int_2{
+    background: url("../img/background-menu.png") 0 0 no-repeat;
+}
+
+/*Interfaces de juego*/
+#menu_coin{
+    background: url("../img/background.png") 0 0 no-repeat;
+}
+
+#int_nyd{
+    background: url("../img/background_game.png") 0 0 no-repeat;
+}
+
+#int_ahorro{
+    background: url("../img/juego_ahorro.png") 0 0 no-repeat;
+}
+
+#int_hc{
+    background: url("../img/hc-background.png") 0 0 no-repeat;
+}
+
+#int_debcred{
+    background: url("../img/historia/cred_deb.png") 0 0 no-repeat;
+}
+
+#tru_cont{
+    position: absolute;
+    width: 900px;
+    left: 150px;
+    top: 80px;
+}
+
+#cyd_cont{
+    position: absolute;
+    width: 550px;
+    height: 320px;
+    top: 80px;
+    left: 172px;
+    text-align: justify;
+    color: white;
+    font-size: 20pt;
+}
+
+/*Botones*/
+#btn_inicio{
+    height: 230px;
+    width: 220px;
+    top: 560px;
+    left: 500px;
+    background: url("../img/btn_ini.png") 0 0 no-repeat;
+}
+
+#btn_inicio:hover{
+    background: url("../img/btn_ini_hover.png") 0 0 no-repeat;
+}
+
+#btn_historia{
+    height: 280px;
+    width: 450px;
+    top: 450px;
+    left: 80px;
+    background: url("../img/btn_historia.png") 0 0 no-repeat;
+}
+
+#btn_historia:hover{
+    background: url("../img/btn_historia_hover.png") 0 0 no-repeat;
+}
+
+#btn_jugar{
+    height: 350px;
+    width: 310px;
+    top: 415px;
+    left: 740px;
+    background: url("../img/btn_juego.png") 0 0 no-repeat;
+}
+
+#btn_jugar:hover{
+    background: url("../img/btn_juego_hover.png") 0 0 no-repeat;
+}
+
+.btn_acep{
+    top: 750px;
+    left: 520px;
+}
+
+#btn_nd{
+    background: url("../img/nyd.png") 0 0 no-repeat;
+    width: 280px;
+    height: 208px;    
+    top: 390px;
+    left: 250px;
+}
+
+#btn_nd:hover{
+    background: url("../img/nyd-hover.png") 0 0 no-repeat;
+}
+
+#btn_ahorro{
+    background: url("../img/ahorro.png") 0 0 no-repeat;
+    width: 259px;
+    height: 208px;
+    top: 390px;
+    left: 800px; 
+}
+
+#btn_ahorro:hover{
+    background: url("../img/ahorro-hover.png") 0 0 no-repeat;
+}
+
+#btn_trueque{
+    top: 230px;
+    left: 180px;
+    background: url("../img/hc/trueque.png") 0 0 no-repeat;
+}
+
+#btn_trueque:hover{
+    background: url("../img/hc/trueque-hover.png") 0 0 no-repeat;
+}
+
+#btn_diamante{
+    top: 185px;
+    left: 548px;
+    background: url("../img/hc/diamante.png") 0 0 no-repeat;
+}
+
+#btn_diamante:hover{
+    background: url("../img/hc/diamante-hover.png") 0 0 no-repeat;
+}
+
+#btn_banco{
+    top: 190px;
+    left: 970px;
+    background: url("../img/hc/banco.png") 0 0 no-repeat;
+}
+
+#btn_banco:hover{
+    background: url("../img/hc/banco-hover.png") 0 0 no-repeat;
+}
+
+#btn_barco{
+    top: 270px;
+    left: 730px;
+    background: url("../img/hc/barco.png") 0 0 no-repeat;
+}
+
+#btn_barco:hover{
+    background: url("../img/hc/barco-hover.png") 0 0 no-repeat;
+}
+
+#btn_trasatlantico{
+    top: 350px;
+    left: 150px;
+    background: url("../img/hc/trasatlantico.png") 0 0 no-repeat;
+}
+
+#btn_trasatlantico:hover{
+    background: url("../img/hc/trasatlantico-hover.png") 0 0 no-repeat;
+}
+
+#btn_tren{
+    top: 410px;
+    left: 450px;
+    background: url("../img/hc/tren.png") 0 0 no-repeat;
+}
+
+#btn_tren:hover{
+    background: url("../img/hc/tren-hover.png") 0 0 no-repeat;
+}
+
+#btn_planeta{
+    top: 530px;
+    left: 850px;
+    background: url("../img/hc/planeta.png") 0 0 no-repeat;
+}
+
+#btn_planeta:hover{
+    background: url("../img/hc/planeta-hover.png") 0 0 no-repeat;
+}
+
+#btn_shop{
+    top: 570px;
+    left: 200px;
+    background: url("../img/hc/shop.png") 0 0 no-repeat;
+}
+
+#btn_shop:hover{
+    background: url("../img/hc/shop-hover.png") 0 0 no-repeat;
+}
+
+.btn_atras{
+    background: url("../img/btn_atras.png") 0 0 no-repeat;
+    width: 185px;
+    height: 90px;
+    top: 700px;
+    left: 100px;
+}
+
+.btn_sig{
+    top: 780px;
+    left: 950px;
+}
+
+.btn_sig_h{
+    background: url("../img/btn_sig.png") 0 0 no-repeat;
+    width: 185px;
+    height: 90px;
+    top: 700px;
+    left: 915px;
+}
+
+.btn_atras_h{
+    background: url("../img/btn_atras.png") 0 0 no-repeat;
+    width: 185px;
+    height: 90px;
+    top: 700px;
+    left: 100px;
+}
+
+#btn_cordoba{
+    width: 330px;
+    height: 198px;
+    background: url('../img/nic.png');
+    left: 150px;
+    top: 370px;
+}
+
+#btn_dolar{
+    width: 296px;
+    height: 198px;
+    background: url('../img/eu.png');
+    left: 750px;
+    top: 370px;
+}
+
+#btn_tru{
+    top: 750px;
+    left: 535px;
+}
+
+#btn_cred{
+    top: 555px;
+    left: 315px;
+}
+
+#btn_deb{
+    top: 555px;
+    left: 460px;
+}
+
+.table{
+    position: absolute;
+    opacity: 0.8;
+    border-color: blue;
+    background: white;
+    width: 640px;
+    top: 180px;
+    left: 300px;
+}
